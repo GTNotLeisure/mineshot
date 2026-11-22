@@ -2,8 +2,8 @@
 
 dependencies {
 
-    runtimeOnlyNonPublishable("com.github.GTNewHorizons:GTNHLib:0.7.0:dev")
-    runtimeOnlyNonPublishable('com.github.GTNewHorizons:Angelica:1.0.0-beta66:dev') { transitive = false }
+    runtimeOnlyNonPublishable("com.github.GTNewHorizons:GTNHLib:0.11.58:dev")
+    runtimeOnlyNonPublishable('com.github.GTNewHorizons:Angelica:2.2.46:dev') { transitive = false }
 
     implementation('com.google.auto.value:auto-value-annotations:1.10.1')
     annotationProcessor('com.google.auto.value:auto-value:1.10.1')
